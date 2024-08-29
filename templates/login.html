@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SatBot - Log In</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-iAL5FW5fX9uUMYtZB7V1BhJSjLSCov+zwOATyF7zyu0+8JdXVgIRN5If66V7b1EgNLjgx7B/2LO43bp03nAbnQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='login.css') }}"
+    />
+  </head>
+  <body class="bg-light">
+    <img
+      src="{{ url_for('static', filename='USDLogo.png') }}"
+      alt="USD Logo"
+      class="logo-img"
+    />
+    <div class="square-top-left"></div>
+    <div class="square-bottom-right"></div>
+    <main class="container-fluid mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card p-4 rounded-lg shadow-sm">
+            <h2
+              class="card-title text-center mb-4"
+              style="font-family: 'Product Sans', sans-serif"
+            >
+              Welcome to SatBot
+            </h2>
+            <form method="POST" action="{{ url_for('login') }}">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  name="username"
+                  placeholder="Username"
+                  style="font-family: 'Product Sans', sans-serif"
+                  required
+                />
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  placeholder="Password"
+                  style="font-family: 'Product Sans', sans-serif"
+                  required
+                />
+              </div>
+              <div class="d-grid gap-2 mt-4">
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  style="font-family: 'Product Sans', sans-serif"
+                >
+                  Log In
+                </button>
+              </div>
+              <div class="text-center mt-3">
+                <p class="mb-0">
+                  Don't have an account yet?
+                  <a
+                    href="{{ url_for('signup') }}"
+                    style="font-family: 'Product Sans', sans-serif"
+                    >Click Here</a
+                  >
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-mZ1Iy+V7by8B4L4Y7yq+OZ5c5o5AS9ZGJzZVRkBTliEhJ//47R+SDa1yjK1vLGaWdJ8rSEzrKj3m2b"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
