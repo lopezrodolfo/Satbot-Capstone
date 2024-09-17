@@ -59,4 +59,5 @@ Fall 22 - Spring 23
 
 ## Notes
 
-- Admin dashboard not fully set up yet...
+- Website is not hosted
+- Admin dashboard is not fully functioning
