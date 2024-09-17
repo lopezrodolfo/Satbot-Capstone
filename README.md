@@ -78,4 +78,4 @@ See the [LICENSE.txt](LICENSE.txt) file for details.
 
 ## Acknowledgements
 
-NN inspired from [Patrick Loeber's pytorch-chatbot](https://github.com/patrickloeber/pytorch-chatbot.git)
+NN inspired by [Patrick Loeber's pytorch-chatbot](https://github.com/patrickloeber/pytorch-chatbot.git)
