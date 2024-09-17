@@ -71,3 +71,11 @@ Fall 22 - Spring 23
 
 - Website is not hosted; it only runs locally
 - Admin dashboard is not fully functioning
+
+## License
+
+See the [LICENSE.txt](LICENSE.txt) file for details.
+
+## Acknowledgements
+
+- NN inspired from [Patrick Loeber's pytorch-chatbot](https://github.com/patrickloeber/pytorch-chatbot.git)
