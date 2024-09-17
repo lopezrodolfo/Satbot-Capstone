@@ -7,3 +7,9 @@ __pycache__/
 
 # macOS system files
 .DS_Store
+
+# SQLite database files
+*.db
+
+# PyTorch trainedmodel files
+*.pth
