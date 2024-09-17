@@ -48,16 +48,17 @@ Fall 22 - Spring 23
 ## File Structure
 
 - `app.py`: Main application file
-- `templates/`: HTML templates for the web interface
+- `templates/`: HTML files for the web interface
 - `static/`: CSS/js files for the web interface
 - `NN/bot.py`: Chatbot logic
 - `NN/nltk_funcs.py`: Natural language processing functions
 - `NN/train.py`: Training script for the chatbot
 - `NN/model.py`: Neural network model definition for the chatbot
-- `users.db`: SQLite database for user information
+- `NN/dataset.json`: Training data for chatbot
 - `model.pth`: Trained model automatically created after training
+- `users.db`: SQLite database for user information
 
 ## Notes
 
-- Website is not hosted
+- Website is not hosted; it only runs locally
 - Admin dashboard is not fully functioning
