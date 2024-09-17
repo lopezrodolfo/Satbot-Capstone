@@ -28,16 +28,25 @@ Fall 22 - Spring 23
    pip install torch numpy nltk flask
    ```
 
-2. Initialize the database:
+2. For nltk, also need to run:
+
+   ```
+   python
+   >>> import nltk
+   >>> nltk.download('punkt')
+   >>> nltk.download('stopwords')
+   ```
+
+3. Initialize the database:
    The app will automatically create the SQLite database on first run.
 
-3. Run the application:
+4. Run the application:
 
    ```
    python app.py
    ```
 
-4. Access the app at `http://localhost:5000`
+5. Access the app at `http://localhost:5000`
 
 ## Usage
 
